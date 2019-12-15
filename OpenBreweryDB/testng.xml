@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteNum1">
+    <test name="MainTest">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="SearchTest"/>
+            <class name="AutocompleteTest"/>
+            <class name="GetAllBreweriesTest"/>
+            <class name="ItemsPerPageTest"/>
+            <class name="PaginationTest"/>
+            <class name="SortingTest"/>
+            <class name="SpecificBreweryTest"/>
+        </classes>
+    </test>
+</suite>

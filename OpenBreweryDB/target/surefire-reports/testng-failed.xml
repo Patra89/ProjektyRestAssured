@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteNum1]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="MainTest(failed)" verbose="0">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="SearchTest">
+        <methods>
+          <include name="checkIfResponseContainPhrase" invocation-numbers="19 46 47 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190"/>
+        </methods>
+      </class> <!-- SearchTest -->
+    </classes>
+  </test> <!-- MainTest(failed) -->
+</suite> <!-- Failed suite [SuiteNum1] -->

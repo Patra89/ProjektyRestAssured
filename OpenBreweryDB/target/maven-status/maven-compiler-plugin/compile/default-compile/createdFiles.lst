@@ -1,0 +1,12 @@
+DataProviders.class
+PaginationTest.class
+GetAllBreweriesTest.class
+ApiResponse.class
+ArrayUtils.class
+AutocompleteTest.class
+SearchTest.class
+SortingTest.class
+Constants.class
+ItemsPerPageTest.class
+FileReader.class
+SpecificBreweryTest.class

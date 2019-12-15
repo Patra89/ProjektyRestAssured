@@ -1,0 +1,105 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "id",
+    "name",
+    "brewery_type",
+    "street",
+    "city",
+    "state",
+    "postal_code",
+    "country",
+    "longitude",
+    "latitude",
+    "phone",
+    "website_url",
+    "updated_at",
+    "tag_list"
+  ],
+  "properties": {
+    "id": {
+      "type": "integer",
+      "title": "The Id Schema",
+      "default": 0
+    },
+    "name": {
+      "type": "string",
+      "title": "The Name Schema",
+      "default": "",
+      "pattern": "^(.*)$"
+    },
+    "brewery_type": {
+      "type": "string",
+      "title": "The Brewery_type Schema",
+      "default": "",
+      "pattern": "^(.*)$"
+    },
+    "street": {
+      "type": "string",
+      "title": "The Street Schema",
+      "default": "",
+      "pattern": "^(.*)$"
+    },
+    "city": {
+      "type": "string",
+      "title": "The City Schema",
+      "default": "",
+      "pattern": "^(.*)$"
+    },
+    "state": {
+      "type": "string",
+      "title": "The State Schema",
+      "default": "",
+      "pattern": "^(.*)$"
+    },
+    "postal_code": {
+      "type": "string",
+      "title": "The Postal_code Schema",
+      "default": "",
+      "pattern": "^(.*)$"
+    },
+    "country": {
+      "type": "string",
+      "title": "The Country Schema",
+      "default": "",
+      "pattern": "^(.*)$"
+    },
+    "longitude": {
+      "type": ["null", "string"],
+      "title": "The Longitude Schema",
+      "default": "",
+      "pattern": "^(.*)$"
+    },
+    "latitude": {
+      "type": ["null", "string"],
+      "title": "The Latitude Schema",
+      "default": "",
+      "pattern": "^(.*)$"
+    },
+    "phone": {
+      "type": "string",
+      "title": "The Phone Schema",
+      "default": "",
+      "pattern": "^(.*)$"
+    },
+    "website_url": {
+      "type": "string",
+      "title": "The Website_url Schema",
+      "default": "",
+      "pattern": "^(.*)$"
+    },
+    "updated_at": {
+      "type": "string",
+      "title": "The Updated_at Schema",
+      "default": "",
+      "pattern": "^(.*)$"
+    },
+    "tag_list": {
+      "type": "array",
+      "title": "The Tag_list Schema"
+    }
+  }
+}
