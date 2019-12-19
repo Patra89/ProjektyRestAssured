@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 11.063 s <<< FAILURE! - in TestSuite
+checkResponseCodesForBoundaryValues(ISSPassTimesTests)  Time elapsed: 0.635 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code is <200> but was <400>.
+
+	at ISSPassTimesTests.checkResponseCodesForBoundaryValues(ISSPassTimesTests.java:40)
+
+checkResponseCodesForBoundaryValues(ISSPassTimesTests)  Time elapsed: 1.141 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code is <200> but was <400>.
+
+	at ISSPassTimesTests.checkResponseCodesForBoundaryValues(ISSPassTimesTests.java:40)
+
+checkResponseCodesForBoundaryValues(ISSPassTimesTests)  Time elapsed: 0.604 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code is <200> but was <400>.
+
+	at ISSPassTimesTests.checkResponseCodesForBoundaryValues(ISSPassTimesTests.java:40)
+
+checkResponseCodesForBoundaryValues(ISSPassTimesTests)  Time elapsed: 0.593 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code is <200> but was <400>.
+
+	at ISSPassTimesTests.checkResponseCodesForBoundaryValues(ISSPassTimesTests.java:40)
+
+checkResponseCodesForBoundaryValues(ISSPassTimesTests)  Time elapsed: 0.594 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+[public void ISSPassTimesTests.checkResponseCodesForBoundaryValues(float,float)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: checkResponseCodesForBoundaryValues([Parameter{index=0, type=float, declaredAnnotations=[]}, Parameter{index=1, type=float, declaredAnnotations=[]}])
+Arguments: [(java.lang.Double) 0.0,(java.lang.Float) -180.0]
+
+checkResponseCodesForInvalidValues(ISSPassTimesTests)  Time elapsed: 0.595 s  <<< FAILURE!
+org.testng.internal.reflect.MethodMatcherException: 
+
+[public void ISSPassTimesTests.checkResponseCodesForInvalidValues(float,float)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: checkResponseCodesForInvalidValues([Parameter{index=0, type=float, declaredAnnotations=[]}, Parameter{index=1, type=float, declaredAnnotations=[]}])
+Arguments: [(java.lang.Double) 0.0,(java.lang.Float) -180.0]
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteNum1]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="MainTest(failed)" verbose="0">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="ISSPassTimesTests">
+        <methods>
+          <include name="checkResponseCodesForBoundaryValues" invocation-numbers="0 1 2 3"/>
+          <include name="checkResponseCodesForInvalidValues"/>
+        </methods>
+      </class> <!-- ISSPassTimesTests -->
+    </classes>
+  </test> <!-- MainTest(failed) -->
+</suite> <!-- Failed suite [SuiteNum1] -->

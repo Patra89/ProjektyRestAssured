@@ -1,0 +1,81 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "message",
+    "request",
+    "response"
+  ],
+  "properties": {
+    "message": {
+      "type": "string",
+      "title": "The Message Schema",
+      "default": "",
+      "pattern": "^(.*)$"
+    },
+    "request": {
+      "type": "object",
+      "title": "The Request Schema",
+      "required": [
+        "altitude",
+        "datetime",
+        "latitude",
+        "longitude",
+        "passes"
+      ],
+      "properties": {
+        "altitude": {
+          "type": "integer",
+          "title": "The Altitude Schema",
+          "default": 0
+        },
+        "datetime": {
+          "type": "integer",
+          "title": "The Datetime Schema",
+          "default": 0
+        },
+        "latitude": {
+          "type": "number",
+          "title": "The Latitude Schema",
+          "default": 0.0
+        },
+        "longitude": {
+          "type": "number",
+          "title": "The Longitude Schema",
+          "default": 0.0
+        },
+        "passes": {
+          "type": "integer",
+          "title": "The Passes Schema",
+          "default": 0
+        }
+      }
+    },
+    "response": {
+      "type": "array",
+      "title": "The Response Schema",
+      "items": {
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "duration",
+          "risetime"
+        ],
+        "properties": {
+          "duration": {
+            "type": "integer",
+            "title": "The Duration Schema",
+            "default": 0
+          },
+          "risetime": {
+            "type": "integer",
+            "title": "The Risetime Schema",
+            "default": 0
+          }
+        }
+      }
+    }
+  }
+}
